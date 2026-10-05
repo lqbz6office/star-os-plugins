@@ -1,0 +1,14 @@
+{
+  "id": "com.staros.batteryguard",
+  "name": "电量守护",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "author": "星",
+  "description": "低电提醒、充满提醒,手动运行可看电量/温度/充电状态和历史记录",
+  "minApi": 27,
+  "entry": "main.sh",
+  "permissions": ["notify"],
+  "hooks": ["boot", "manual"],
+  "license": "MIT",
+  "homepage": "https://github.com/lqbz6office/star-os-plugins"
+}

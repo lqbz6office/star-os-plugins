@@ -1,0 +1,14 @@
+{
+  "id": "com.staros.netcheck",
+  "name": "网络体检",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "author": "星",
+  "description": "手动运行,依次测几个常用地址通不通、花了多久,排查下载失败",
+  "minApi": 27,
+  "entry": "main.sh",
+  "permissions": ["network"],
+  "hooks": ["manual"],
+  "license": "MIT",
+  "homepage": "https://github.com/lqbz6office/star-os-plugins"
+}

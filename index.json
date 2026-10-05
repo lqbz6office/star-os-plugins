@@ -2,6 +2,74 @@
   "schema": 1,
   "plugins": [
     {
+      "id": "com.staros.batteryguard",
+      "name": "电量守护",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "author": "星",
+      "description": "低电提醒、充满提醒,手动运行可看电量/温度/充电状态和历史记录",
+      "permissions": [
+        "notify"
+      ],
+      "hooks": [
+        "boot",
+        "manual"
+      ],
+      "minApi": 27,
+      "license": "MIT",
+      "file": "dist/com.staros.batteryguard-1.0.0.sosp",
+      "size": 3540,
+      "sha256": "7c3d0e8fd3b0fbe1229adcb04fa8be37d1865f436ed5053fa3aa5aef900b5956",
+      "downloads": 0,
+      "homepage": "https://github.com/lqbz6office/star-os-plugins"
+    },
+    {
+      "id": "com.staros.brightness",
+      "name": "亮度助手",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "author": "星",
+      "description": "暗/中/亮三档一键切换,记住你的选择,开机自动恢复",
+      "permissions": [
+        "settings.read",
+        "settings.write"
+      ],
+      "hooks": [
+        "boot",
+        "manual"
+      ],
+      "minApi": 27,
+      "license": "MIT",
+      "file": "dist/com.staros.brightness-1.0.0.sosp",
+      "size": 3174,
+      "sha256": "0ff67c763ea556eb85751ed6f073f4372a2042e8dd1f0f1fa618ca3d9366ff35",
+      "downloads": 0,
+      "homepage": "https://github.com/lqbz6office/star-os-plugins"
+    },
+    {
+      "id": "com.staros.classbell",
+      "name": "课程提醒",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "author": "星",
+      "description": "导入一份课程表,开机自动提醒你下一节课,手动运行可看今天全部课程",
+      "permissions": [
+        "notify"
+      ],
+      "hooks": [
+        "boot",
+        "install",
+        "manual"
+      ],
+      "minApi": 27,
+      "license": "MIT",
+      "file": "dist/com.staros.classbell-1.0.0.sosp",
+      "size": 4547,
+      "sha256": "06c74af04317effa770e77dc1896e19345cb9148aec9ca941ec3892eb8888486",
+      "downloads": 0,
+      "homepage": "https://github.com/lqbz6office/star-os-plugins"
+    },
+    {
       "id": "com.staros.dailytip",
       "name": "每日一句",
       "version": "1.0.0",
@@ -44,6 +112,49 @@
       "homepage": "https://github.com/lqbz6office/star-os-plugins"
     },
     {
+      "id": "com.staros.netcheck",
+      "name": "网络体检",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "author": "星",
+      "description": "手动运行,依次测几个常用地址通不通、花了多久,排查下载失败",
+      "permissions": [
+        "network"
+      ],
+      "hooks": [
+        "manual"
+      ],
+      "minApi": 27,
+      "license": "MIT",
+      "file": "dist/com.staros.netcheck-1.0.0.sosp",
+      "size": 3181,
+      "sha256": "7baf2e05dc4f472d011e1e7f8a7d43f4a0943ca345966af84a2ce5579b98bd64",
+      "downloads": 0,
+      "homepage": "https://github.com/lqbz6office/star-os-plugins"
+    },
+    {
+      "id": "com.staros.spacealert",
+      "name": "空间哨兵",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "author": "星",
+      "description": "盯着存储空间:少于 1GB 提醒,少于 300MB 严重告警,手动运行看完整报告",
+      "permissions": [
+        "notify"
+      ],
+      "hooks": [
+        "boot",
+        "manual"
+      ],
+      "minApi": 27,
+      "license": "MIT",
+      "file": "dist/com.staros.spacealert-1.0.0.sosp",
+      "size": 2884,
+      "sha256": "e108d6588f6f4c552d165d6c43da5e245048ad8c4efcf4741eaed6045fb20c1a",
+      "downloads": 0,
+      "homepage": "https://github.com/lqbz6office/star-os-plugins"
+    },
+    {
       "id": "com.staros.sysinfo",
       "name": "系统信息",
       "version": "1.0.0",
@@ -65,5 +176,5 @@
       "homepage": "https://github.com/lqbz6office/star-os-plugins"
     }
   ],
-  "updated": "2026-10-05T09:06:18Z"
+  "updated": "2026-10-05T12:05:07Z"
 }
