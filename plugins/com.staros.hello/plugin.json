@@ -1,0 +1,14 @@
+{
+  "id": "com.staros.hello",
+  "name": "你好插件",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "author": "星",
+  "description": "最小示例:不申请任何权限,只打印自己的运行环境",
+  "minApi": 27,
+  "entry": "main.sh",
+  "permissions": [],
+  "hooks": ["install", "manual"],
+  "license": "MIT",
+  "homepage": "https://github.com/lqbz6office/star-os-plugins"
+}

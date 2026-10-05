@@ -1,0 +1,14 @@
+{
+  "id": "com.staros.sysinfo",
+  "name": "系统信息",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "author": "星",
+  "description": "手动运行,查看机型和系统版本、运行时长、内存占用",
+  "minApi": 27,
+  "entry": "main.sh",
+  "permissions": ["settings.read"],
+  "hooks": ["manual"],
+  "license": "MIT",
+  "homepage": "https://github.com/lqbz6office/star-os-plugins"
+}

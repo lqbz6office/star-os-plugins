@@ -1,0 +1,80 @@
+name: 问题反馈
+description: 插件跑不通、行为不对,或者有建议
+title: "[反馈] "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        反馈会被「Star OS 插件工具」的反馈页直接拉取处理,所以请尽量填写完整。
+
+        **日志是最关键的信息** —— 在「插件中心 → 已安装 → 日志」里能看到。
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 类型
+      options:
+        - "bug:插件跑不起来 / 报错"
+        - "bug:行为不对(和说明不符)"
+        - "idea:想要的功能 / 改进建议"
+        - "security:安全或权限问题"
+        - "other:其它"
+    validations:
+      required: true
+
+  - type: input
+    id: plugin
+    attributes:
+      label: 插件名 / id
+      placeholder: "每日一句 / com.staros.dailytip"
+    validations:
+      required: true
+
+  - type: input
+    id: pver
+    attributes:
+      label: 插件版本
+      placeholder: "1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: modver
+    attributes:
+      label: Star OS 模块版本
+      placeholder: "1.5"
+    validations:
+      required: true
+
+  - type: input
+    id: granted
+    attributes:
+      label: 你给这个插件勾了哪些权限
+      placeholder: "notify, settings.read"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: 发生了什么
+      description: 做了什么 → 期望什么 → 实际什么
+    validations:
+      required: true
+
+  - type: textarea
+    id: log
+    attributes:
+      label: 日志
+      description: 插件中心 → 已安装 → 日志,把内容贴上来
+      render: text
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: 其它(可选)
+    validations:
+      required: false

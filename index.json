@@ -1,0 +1,69 @@
+{
+  "schema": 1,
+  "plugins": [
+    {
+      "id": "com.staros.dailytip",
+      "name": "每日一句",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "author": "星",
+      "description": "每次开机弹一条随机小贴士,内容从 res/tips.txt 里随机取",
+      "permissions": [
+        "notify"
+      ],
+      "hooks": [
+        "boot",
+        "manual"
+      ],
+      "minApi": 27,
+      "license": "MIT",
+      "file": "dist/com.staros.dailytip-1.0.0.sosp",
+      "size": 2374,
+      "sha256": "fcd99b42cbf5305a2ac2706e5ff4054e95c39e1c98e724d80fd7c930e0caa223",
+      "downloads": 0,
+      "homepage": "https://github.com/lqbz6office/star-os-plugins"
+    },
+    {
+      "id": "com.staros.hello",
+      "name": "你好插件",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "author": "星",
+      "description": "最小示例:不申请任何权限,只打印自己的运行环境",
+      "permissions": [],
+      "hooks": [
+        "install",
+        "manual"
+      ],
+      "minApi": 27,
+      "license": "MIT",
+      "file": "dist/com.staros.hello-1.0.0.sosp",
+      "size": 2115,
+      "sha256": "bb61cf1719ddfe2d67facf1bc6fbc22e0ce70673f526991d809fd488eb526dcb",
+      "downloads": 0,
+      "homepage": "https://github.com/lqbz6office/star-os-plugins"
+    },
+    {
+      "id": "com.staros.sysinfo",
+      "name": "系统信息",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "author": "星",
+      "description": "手动运行,查看机型和系统版本、运行时长、内存占用",
+      "permissions": [
+        "settings.read"
+      ],
+      "hooks": [
+        "manual"
+      ],
+      "minApi": 27,
+      "license": "MIT",
+      "file": "dist/com.staros.sysinfo-1.0.0.sosp",
+      "size": 1910,
+      "sha256": "4e989abd971772bbc2130d881136878d7c751477100f9519dd892828c73837e6",
+      "downloads": 0,
+      "homepage": "https://github.com/lqbz6office/star-os-plugins"
+    }
+  ],
+  "updated": "2026-10-05T09:06:18Z"
+}
