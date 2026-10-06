@@ -1,0 +1,14 @@
+{
+  "id": "com.staros.theme.aobing",
+  "name": "敖丙星空主题",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "author": "星",
+  "description": "一键换主题:星轨表盘 + 星空壁纸 + Star OS 图标包",
+  "minApi": 27,
+  "entry": "main.sh",
+  "permissions": ["shell", "network", "notify"],
+  "hooks": ["install", "manual", "uninstall"],
+  "license": "MIT",
+  "homepage": "https://github.com/lqbz6office/star-os-plugins"
+}
