@@ -21,7 +21,8 @@
       "size": 3540,
       "sha256": "7c3d0e8fd3b0fbe1229adcb04fa8be37d1865f436ed5053fa3aa5aef900b5956",
       "downloads": 0,
-      "homepage": "https://github.com/lqbz6office/star-os-plugins"
+      "homepage": "https://github.com/lqbz6office/star-os-plugins",
+      "category": "系统"
     },
     {
       "id": "com.staros.brightness",
@@ -44,7 +45,8 @@
       "size": 3174,
       "sha256": "0ff67c763ea556eb85751ed6f073f4372a2042e8dd1f0f1fa618ca3d9366ff35",
       "downloads": 0,
-      "homepage": "https://github.com/lqbz6office/star-os-plugins"
+      "homepage": "https://github.com/lqbz6office/star-os-plugins",
+      "category": "系统"
     },
     {
       "id": "com.staros.classbell",
@@ -67,7 +69,8 @@
       "size": 4547,
       "sha256": "06c74af04317effa770e77dc1896e19345cb9148aec9ca941ec3892eb8888486",
       "downloads": 0,
-      "homepage": "https://github.com/lqbz6office/star-os-plugins"
+      "homepage": "https://github.com/lqbz6office/star-os-plugins",
+      "category": "提醒"
     },
     {
       "id": "com.staros.dailytip",
@@ -89,7 +92,8 @@
       "size": 2374,
       "sha256": "fcd99b42cbf5305a2ac2706e5ff4054e95c39e1c98e724d80fd7c930e0caa223",
       "downloads": 0,
-      "homepage": "https://github.com/lqbz6office/star-os-plugins"
+      "homepage": "https://github.com/lqbz6office/star-os-plugins",
+      "category": "提醒"
     },
     {
       "id": "com.staros.hello",
@@ -109,7 +113,8 @@
       "size": 2115,
       "sha256": "bb61cf1719ddfe2d67facf1bc6fbc22e0ce70673f526991d809fd488eb526dcb",
       "downloads": 0,
-      "homepage": "https://github.com/lqbz6office/star-os-plugins"
+      "homepage": "https://github.com/lqbz6office/star-os-plugins",
+      "category": "示例"
     },
     {
       "id": "com.staros.netcheck",
@@ -130,7 +135,8 @@
       "size": 3181,
       "sha256": "7baf2e05dc4f472d011e1e7f8a7d43f4a0943ca345966af84a2ce5579b98bd64",
       "downloads": 0,
-      "homepage": "https://github.com/lqbz6office/star-os-plugins"
+      "homepage": "https://github.com/lqbz6office/star-os-plugins",
+      "category": "网络"
     },
     {
       "id": "com.staros.spacealert",
@@ -152,7 +158,8 @@
       "size": 2884,
       "sha256": "e108d6588f6f4c552d165d6c43da5e245048ad8c4efcf4741eaed6045fb20c1a",
       "downloads": 0,
-      "homepage": "https://github.com/lqbz6office/star-os-plugins"
+      "homepage": "https://github.com/lqbz6office/star-os-plugins",
+      "category": "系统"
     },
     {
       "id": "com.staros.sysinfo",
@@ -173,7 +180,8 @@
       "size": 1910,
       "sha256": "4e989abd971772bbc2130d881136878d7c751477100f9519dd892828c73837e6",
       "downloads": 0,
-      "homepage": "https://github.com/lqbz6office/star-os-plugins"
+      "homepage": "https://github.com/lqbz6office/star-os-plugins",
+      "category": "系统"
     },
     {
       "id": "com.staros.theme.aobing",
@@ -198,7 +206,8 @@
       "size": 18792,
       "sha256": "fc8de8cbf3b163a62298fe4a477f2f9f5b3cd7679de640a79c45d59009488dda",
       "downloads": 0,
-      "homepage": "https://github.com/lqbz6office/star-os-plugins"
+      "homepage": "https://github.com/lqbz6office/star-os-plugins",
+      "category": "主题"
     },
     {
       "id": "com.user.bootinforeminder",
@@ -220,7 +229,8 @@
       "file": "dist/com.user.bootinforeminder-1.0.0.sosp",
       "size": 2549,
       "sha256": "684d960e64c7f83a351f74f7c7581beaa477c1e6c10ea8b6a02a7133600e99e9",
-      "downloads": 0
+      "downloads": 0,
+      "category": "提醒"
     }
   ],
   "updated": "2026-10-06T11:48:04Z"
