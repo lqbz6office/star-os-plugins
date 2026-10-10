@@ -1,0 +1,22 @@
+{
+  "id": "com.staros.screentimeout",
+  "name": "息屏时间",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "author": "星",
+  "description": "15秒/30秒/1分钟/2分钟 屏幕超时一键切换",
+  "minApi": 27,
+  "entry": "main.sh",
+  "permissions": [
+    "notify",
+    "settings.read",
+    "settings.write"
+  ],
+  "hooks": [
+    "boot",
+    "manual"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/lqbz6office/star-os-plugins",
+  "category": "系统"
+}

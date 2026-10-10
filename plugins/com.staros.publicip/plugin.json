@@ -1,0 +1,19 @@
+{
+  "id": "com.staros.publicip",
+  "name": "公网 IP",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "author": "星",
+  "description": "查一下当前对外的公网地址",
+  "minApi": 27,
+  "entry": "main.sh",
+  "permissions": [
+    "network"
+  ],
+  "hooks": [
+    "manual"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/lqbz6office/star-os-plugins",
+  "category": "网络"
+}

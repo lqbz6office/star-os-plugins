@@ -2,6 +2,30 @@
   "schema": 1,
   "plugins": [
     {
+      "id": "com.staros.autotime",
+      "name": "时间体检",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "author": "星",
+      "description": "检查自动校时是否开启,没开一键开",
+      "permissions": [
+        "notify",
+        "settings.read",
+        "settings.write"
+      ],
+      "hooks": [
+        "manual"
+      ],
+      "minApi": 27,
+      "license": "MIT",
+      "file": "dist/com.staros.autotime-1.0.0.sosp",
+      "size": 1878,
+      "sha256": "33010b4d5579e3872070fd55f551a1737ed84aaab8ac7c8966f6e3fb2161325d",
+      "downloads": 0,
+      "category": "系统",
+      "homepage": "https://github.com/lqbz6office/star-os-plugins"
+    },
+    {
       "id": "com.staros.batteryguard",
       "name": "电量守护",
       "version": "1.0.0",
@@ -23,6 +47,31 @@
       "downloads": 0,
       "homepage": "https://github.com/lqbz6office/star-os-plugins",
       "category": "系统"
+    },
+    {
+      "id": "com.staros.bluetooth",
+      "name": "蓝牙助手",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "author": "星",
+      "description": "一键开/关蓝牙,记住选择,开机自动恢复",
+      "permissions": [
+        "notify",
+        "settings.read",
+        "settings.write"
+      ],
+      "hooks": [
+        "boot",
+        "manual"
+      ],
+      "minApi": 27,
+      "license": "MIT",
+      "file": "dist/com.staros.bluetooth-1.0.0.sosp",
+      "size": 2084,
+      "sha256": "9df830f019c869326bd15ed400d6a10a255958b43e6927f7d9621f3b2ea0b9ec",
+      "downloads": 0,
+      "category": "网络",
+      "homepage": "https://github.com/lqbz6office/star-os-plugins"
     },
     {
       "id": "com.staros.brightness",
@@ -96,6 +145,104 @@
       "category": "提醒"
     },
     {
+      "id": "com.staros.diskreport",
+      "name": "存储体检",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "author": "星",
+      "description": "列出内部存储各目录条目数,找出该清理的地方",
+      "permissions": [
+        "notify",
+        "storage.read"
+      ],
+      "hooks": [
+        "manual"
+      ],
+      "minApi": 27,
+      "license": "MIT",
+      "file": "dist/com.staros.diskreport-1.0.0.sosp",
+      "size": 1936,
+      "sha256": "9c3c5969dbde1b055238b3f851823ebe5b24df8ba8cb100e37f4c1e072d0e579",
+      "downloads": 0,
+      "category": "文件",
+      "homepage": "https://github.com/lqbz6office/star-os-plugins"
+    },
+    {
+      "id": "com.staros.dnd",
+      "name": "免打扰",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "author": "星",
+      "description": "一键开/关勿扰模式,上课开会不被打扰",
+      "permissions": [
+        "notify",
+        "settings.read",
+        "settings.write"
+      ],
+      "hooks": [
+        "boot",
+        "manual"
+      ],
+      "minApi": 27,
+      "license": "MIT",
+      "file": "dist/com.staros.dnd-1.0.0.sosp",
+      "size": 2087,
+      "sha256": "9e1d31dc19d7c3654f383d016685fe03b212f47a0af81f8e865345a145411384",
+      "downloads": 0,
+      "category": "系统",
+      "homepage": "https://github.com/lqbz6office/star-os-plugins"
+    },
+    {
+      "id": "com.staros.fontscale",
+      "name": "字体大小",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "author": "星",
+      "description": "小/标准/大 三档字体,一键切换",
+      "permissions": [
+        "notify",
+        "settings.read",
+        "settings.write"
+      ],
+      "hooks": [
+        "boot",
+        "manual"
+      ],
+      "minApi": 27,
+      "license": "MIT",
+      "file": "dist/com.staros.fontscale-1.0.0.sosp",
+      "size": 2104,
+      "sha256": "c97b9b72e8a9ad60716abb7a12bc8c571f1f37880998b0d364ce4dfc3d5e8fd0",
+      "downloads": 0,
+      "category": "系统",
+      "homepage": "https://github.com/lqbz6office/star-os-plugins"
+    },
+    {
+      "id": "com.staros.haptics",
+      "name": "触感反馈",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "author": "星",
+      "description": "开/关按键与操作的震动反馈",
+      "permissions": [
+        "notify",
+        "settings.read",
+        "settings.write"
+      ],
+      "hooks": [
+        "boot",
+        "manual"
+      ],
+      "minApi": 27,
+      "license": "MIT",
+      "file": "dist/com.staros.haptics-1.0.0.sosp",
+      "size": 2058,
+      "sha256": "a39f49bffb08bda29ad9df69eb7bc7df24917bd7294856a186cf345fa2c8c54f",
+      "downloads": 0,
+      "category": "系统",
+      "homepage": "https://github.com/lqbz6office/star-os-plugins"
+    },
+    {
       "id": "com.staros.hello",
       "name": "你好插件",
       "version": "1.0.0",
@@ -137,6 +284,122 @@
       "downloads": 0,
       "homepage": "https://github.com/lqbz6office/star-os-plugins",
       "category": "网络"
+    },
+    {
+      "id": "com.staros.netspeed",
+      "name": "网速测速",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "author": "星",
+      "description": "下载测试文件估算当前网速",
+      "permissions": [
+        "network"
+      ],
+      "hooks": [
+        "manual"
+      ],
+      "minApi": 27,
+      "license": "MIT",
+      "file": "dist/com.staros.netspeed-1.0.0.sosp",
+      "size": 1852,
+      "sha256": "b25bf908086c951c5a9211d9cc56eacc3aa29bfd8df95c210dd35082096bdbae",
+      "downloads": 0,
+      "category": "网络",
+      "homepage": "https://github.com/lqbz6office/star-os-plugins"
+    },
+    {
+      "id": "com.staros.proinfo",
+      "name": "授权信息",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "author": "星",
+      "description": "查看当前授权等级与到期时间",
+      "permissions": [
+        "notify"
+      ],
+      "hooks": [
+        "manual"
+      ],
+      "minApi": 27,
+      "license": "MIT",
+      "file": "dist/com.staros.proinfo-1.0.0.sosp",
+      "size": 1619,
+      "sha256": "8a6c7869d225bf7ffa1ace4a59cfbc2ccf81efb69862d88e8d7f6a3f229b63fc",
+      "downloads": 0,
+      "category": "工具",
+      "homepage": "https://github.com/lqbz6office/star-os-plugins"
+    },
+    {
+      "id": "com.staros.publicip",
+      "name": "公网 IP",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "author": "星",
+      "description": "查一下当前对外的公网地址",
+      "permissions": [
+        "network"
+      ],
+      "hooks": [
+        "manual"
+      ],
+      "minApi": 27,
+      "license": "MIT",
+      "file": "dist/com.staros.publicip-1.0.0.sosp",
+      "size": 1747,
+      "sha256": "c487c4f7156b930bd186466534d1e780ceb9d1c5eb1fc159961910fd8fad92b7",
+      "downloads": 0,
+      "category": "网络",
+      "homepage": "https://github.com/lqbz6office/star-os-plugins"
+    },
+    {
+      "id": "com.staros.rotationlock",
+      "name": "旋转锁定",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "author": "星",
+      "description": "自动旋转 / 锁定方向 一键切换",
+      "permissions": [
+        "notify",
+        "settings.read",
+        "settings.write"
+      ],
+      "hooks": [
+        "boot",
+        "manual"
+      ],
+      "minApi": 27,
+      "license": "MIT",
+      "file": "dist/com.staros.rotationlock-1.0.0.sosp",
+      "size": 2082,
+      "sha256": "a11d266bd8b39e90d1c979e3f786d227ddd0d144c3b3d737bc4f4e278feca93b",
+      "downloads": 0,
+      "category": "系统",
+      "homepage": "https://github.com/lqbz6office/star-os-plugins"
+    },
+    {
+      "id": "com.staros.screentimeout",
+      "name": "息屏时间",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "author": "星",
+      "description": "15秒/30秒/1分钟/2分钟 屏幕超时一键切换",
+      "permissions": [
+        "notify",
+        "settings.read",
+        "settings.write"
+      ],
+      "hooks": [
+        "boot",
+        "manual"
+      ],
+      "minApi": 27,
+      "license": "MIT",
+      "file": "dist/com.staros.screentimeout-1.0.0.sosp",
+      "size": 2127,
+      "sha256": "6f0c5011ae936e9a1ab6024759dc1e72a70238480b90f7773165c713c2b185e1",
+      "downloads": 0,
+      "category": "系统",
+      "homepage": "https://github.com/lqbz6office/star-os-plugins"
     },
     {
       "id": "com.staros.spacealert",
@@ -210,6 +473,103 @@
       "category": "主题"
     },
     {
+      "id": "com.staros.timeformat",
+      "name": "时间格式",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "author": "星",
+      "description": "12/24 小时制一键切换",
+      "permissions": [
+        "notify",
+        "settings.read",
+        "settings.write"
+      ],
+      "hooks": [
+        "boot",
+        "manual"
+      ],
+      "minApi": 27,
+      "license": "MIT",
+      "file": "dist/com.staros.timeformat-1.0.0.sosp",
+      "size": 2038,
+      "sha256": "5af6e9b42a605f9cf76a684dbc7207baa8837cd6900b950d44a226c825c4b4b6",
+      "downloads": 0,
+      "category": "系统",
+      "homepage": "https://github.com/lqbz6office/star-os-plugins"
+    },
+    {
+      "id": "com.staros.uptime",
+      "name": "运行时长",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "author": "星",
+      "description": "看手表这次开机跑了多久",
+      "permissions": [
+        "notify"
+      ],
+      "hooks": [
+        "manual"
+      ],
+      "minApi": 27,
+      "license": "MIT",
+      "file": "dist/com.staros.uptime-1.0.0.sosp",
+      "size": 1619,
+      "sha256": "1d7673efa132bcb0a4894086fa38015dee2609a9ac8bd10ca85d13d27bd30b0a",
+      "downloads": 0,
+      "category": "工具",
+      "homepage": "https://github.com/lqbz6office/star-os-plugins"
+    },
+    {
+      "id": "com.staros.volume",
+      "name": "音量管家",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "author": "星",
+      "description": "媒体音量 静音/中/高三档一键切换并记住",
+      "permissions": [
+        "notify",
+        "settings.read",
+        "settings.write"
+      ],
+      "hooks": [
+        "boot",
+        "manual"
+      ],
+      "minApi": 27,
+      "license": "MIT",
+      "file": "dist/com.staros.volume-1.0.0.sosp",
+      "size": 2116,
+      "sha256": "1aa6e24fecf31de96fcb1f86456e2d19cd1ce825a74e4c9a6d54018c9061f913",
+      "downloads": 0,
+      "category": "系统",
+      "homepage": "https://github.com/lqbz6office/star-os-plugins"
+    },
+    {
+      "id": "com.staros.wifitoggle",
+      "name": "WiFi 开关",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "author": "星",
+      "description": "一键开/关 Wi-Fi,记住选择,开机自动恢复",
+      "permissions": [
+        "notify",
+        "settings.read",
+        "settings.write"
+      ],
+      "hooks": [
+        "boot",
+        "manual"
+      ],
+      "minApi": 27,
+      "license": "MIT",
+      "file": "dist/com.staros.wifitoggle-1.0.0.sosp",
+      "size": 2101,
+      "sha256": "a1207e08a0f5d363420395ed87ee4c880b97ed3288587ca50297c6b0fc0b3508",
+      "downloads": 0,
+      "category": "网络",
+      "homepage": "https://github.com/lqbz6office/star-os-plugins"
+    },
+    {
       "id": "com.user.bootinforeminder",
       "name": "开机信息提醒",
       "version": "1.0.0",
@@ -233,5 +593,5 @@
       "category": "提醒"
     }
   ],
-  "updated": "2026-10-06T11:48:04Z"
+  "updated": "2026-10-10T14:09:11Z"
 }

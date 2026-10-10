@@ -1,0 +1,19 @@
+{
+  "id": "com.staros.uptime",
+  "name": "运行时长",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "author": "星",
+  "description": "看手表这次开机跑了多久",
+  "minApi": 27,
+  "entry": "main.sh",
+  "permissions": [
+    "notify"
+  ],
+  "hooks": [
+    "manual"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/lqbz6office/star-os-plugins",
+  "category": "工具"
+}

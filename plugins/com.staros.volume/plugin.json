@@ -1,0 +1,22 @@
+{
+  "id": "com.staros.volume",
+  "name": "音量管家",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "author": "星",
+  "description": "媒体音量 静音/中/高三档一键切换并记住",
+  "minApi": 27,
+  "entry": "main.sh",
+  "permissions": [
+    "notify",
+    "settings.read",
+    "settings.write"
+  ],
+  "hooks": [
+    "boot",
+    "manual"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/lqbz6office/star-os-plugins",
+  "category": "系统"
+}

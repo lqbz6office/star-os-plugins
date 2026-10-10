@@ -1,0 +1,22 @@
+{
+  "id": "com.staros.bluetooth",
+  "name": "蓝牙助手",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "author": "星",
+  "description": "一键开/关蓝牙,记住选择,开机自动恢复",
+  "minApi": 27,
+  "entry": "main.sh",
+  "permissions": [
+    "notify",
+    "settings.read",
+    "settings.write"
+  ],
+  "hooks": [
+    "boot",
+    "manual"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/lqbz6office/star-os-plugins",
+  "category": "网络"
+}
